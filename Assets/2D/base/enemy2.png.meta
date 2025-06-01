@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 4b6902e49c0a7a349bf4567497b98db1
+guid: e15317ef25389904dbffe65230acf1f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1175095123615278159
-    second: instruccion_0
+      213: 1344780287051860636
+    second: enemy2_0
+  - first:
+      213: -8399772541321868063
+    second: enemy2_1
+  - first:
+      213: -3258914053520618500
+    second: enemy2_2
+  - first:
+      213: 606466193383608676
+    second: enemy2_3
+  - first:
+      213: -8868737252284106608
+    second: enemy2_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +108,71 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: instruccion_0
+      name: enemy2_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3347
-        height: 952
+        x: 286
+        y: 20
+        width: 221
+        height: 153
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f44e16cf9c6ce4010800000000000000
-      internalID: 1175095123615278159
+      spriteID: 9889dbb3ac06d624180e487e2756ffaa
+      internalID: -390632072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 231
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0afeb744118317459f1f4f4facd833b
+      internalID: -1029340563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy2_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 20
+        width: 231
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d4cbfcf47aa942bca9948ae4912fe
+      internalID: 1009547625
       vertices: []
       indices: 
       edges: []
@@ -138,7 +181,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 421911baffaa8384586bdad3ec35635a
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +191,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      instruccion_0: 1175095123615278159
+      enemy2_0: -1000098807
+      enemy2_1: -390632072
+      enemy2_2: -58817372
+      enemy2_3: -1029340563
+      enemy2_4: 1009547625
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
