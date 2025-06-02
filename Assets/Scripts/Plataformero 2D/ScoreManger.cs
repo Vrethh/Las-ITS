@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 namespace Assets.Scripts
 {
     public class ScoreManager : MonoBehaviour
@@ -51,8 +52,8 @@ namespace Assets.Scripts
             if (scoreText != null)
                 scoreText.text = "¡GANASTE!";
 
-            // Opcional: Detener el juego o cargar una pantalla de victoria
-            Time.timeScale = 0f; // Detiene el tiempo
+            // Cargar la escena de victoria
+            SceneManager.LoadScene("Win Plataformero");
         }
     }
 }

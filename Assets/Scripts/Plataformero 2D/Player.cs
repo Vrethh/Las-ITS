@@ -9,12 +9,12 @@ namespace Assets.Scripts
     public class Player : MonoBehaviour
     {
         Rigidbody2D PlayerRB;
-        public float PSpeed = 15f;
+        public float PSpeed = 25f;
         Animator Panim;
         public Transform groundcheck;
         public LayerMask groundlayer;
         private bool isGround; //piso 
-        private bool jumped; //saltó 
+        private bool jumped; //saltó
         private float jumpPower = 20f;
 
 
