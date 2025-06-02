@@ -42,7 +42,7 @@ namespace Assets.Scripts
         void UpdateScoreUI()
         {
             if (scoreText != null)
-                scoreText.text = "Puntos: " + Mathf.RoundToInt(score);
+                scoreText.text = " " + Mathf.RoundToInt(score);
         }
 
         void WinGame()
@@ -52,7 +52,7 @@ namespace Assets.Scripts
                 scoreText.text = "¡GANASTE!";
 
             // Opcional: Detener el juego o cargar una pantalla de victoria
-            Time.timeScale = 0f; // Detiene tiempo
+            Time.timeScale = 0f; // Detiene el tiempo
         }
     }
 }
