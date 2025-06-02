@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UIElements;
+using UnityEditor;
 
 namespace Assets.Scripts
 {
@@ -13,8 +14,8 @@ namespace Assets.Scripts
         public Transform groundcheck;
         public LayerMask groundlayer;
         private bool isGround; //piso 
-        private bool jumped; //saltó 
-        private float jumpPower = 12f;
+        private bool jumped; //saltÃ³ 
+        private float jumpPower = 20f;
 
 
         void Start()
@@ -80,6 +81,24 @@ namespace Assets.Scripts
                     Panim.SetBool("Jump", true);
                 }
             }
+        }
+        public static Player instance;
+
+        void Awake()
+        {
+            instance = this;
+        }
+    }
+    [InitializeOnLoad]
+    public class SafeInitializer
+    {
+        static SafeInitializer()
+        {
+            EditorApplication.delayCall += () =>
+            {
+                if (Player.instance != null) ;
+                   
+            };
         }
     }
 }

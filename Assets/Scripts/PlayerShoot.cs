@@ -19,4 +19,12 @@ public class PlayerShoot : MonoBehaviour
      Quaternion.identity);
      bullet.GetComponent<FireBullet>//codigo
      ().Speed *= transform.localScale.x; //disparar X y -X espejo
-        } } }
+        } 
+    }
+    void ChangeDirection(int direction) //espejo
+    {
+        Vector3 tempScale = transform.localScale;
+        tempScale.x = direction; //x
+        transform.localScale = tempScale;
+    }
+}

@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public Text scoretxt;
     public float jump = 7f;
     private int score;
+    internal static object instance;
 
     void Update()
     {
@@ -37,6 +38,7 @@ public class ScoreManager : MonoBehaviour
  public Text scoreText;        // Muestra la puntuación
     public Text winText;          // Nuevo: muestra "¡Ganaste!"
     private int currentScore;     // Variable para almacenar la puntuación
+    internal static object Instance;
 
     void Start()
     {

@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 2c6912fbc5597c745a847a671ad8fab4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8230087177895037095
+    second: V_WALK_Derecha_0
+  - first:
+      213: 3376101750641400281
+    second: V_WALK_Derecha_1
+  - first:
+      213: -7932604727487907943
+    second: V_WALK_Derecha_2
+  - first:
+      213: -6216185082158873665
+    second: V_WALK_Derecha_3
+  - first:
+      213: -657295114778313356
+    second: V_WALK_Derecha_4
+  - first:
+      213: -879452549481146565
+    second: V_WALK_Derecha_5
+  - first:
+      213: -3323235320874607472
+    second: V_WALK_Derecha_6
+  - first:
+      213: 5928789731299949368
+    second: V_WALK_Derecha_7
+  - first:
+      213: 3498964046696709027
+    second: V_WALK_Derecha_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: V_WALK_Derecha_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 212
+        width: 245
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7db3f541a0798042a072667b9ce6816
+      internalID: 381142643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 209
+        width: 225
+        height: 529
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0767b1f62ff8c024e950d1d6c2de1141
+      internalID: 1662783448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 208
+        width: 196
+        height: 539
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107e0b6c1499fcc408d31893fabc47ba
+      internalID: 1085881987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_3
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 204
+        width: 200
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe0b9b0b8056404bb17fd5db7366fe2
+      internalID: 487252913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_4
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 209
+        width: 244
+        height: 535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6d60f17c3316a448fcd584561c89fe
+      internalID: -1886588406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 207
+        width: 218
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fdc9996852c6da49be17f6d377d5982
+      internalID: -1574635455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_6
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 209
+        width: 196
+        height: 530
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b489c810c0137fb4f8b21bedc4458b1e
+      internalID: 1047110660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 208
+        width: 208
+        height: 537
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd951ced358c84f4c8fd01f1f31884c6
+      internalID: -1862991668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V_WALK_Derecha_8
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 212
+        width: 247
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bf18ac7bab28a4790b3a755326b3c5
+      internalID: 638412531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 54590fe1123f9b24ab52c0db2b557817
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      V_WALK_Derecha_0: 381142643
+      V_WALK_Derecha_1: 1662783448
+      V_WALK_Derecha_2: 1085881987
+      V_WALK_Derecha_3: 487252913
+      V_WALK_Derecha_4: -1886588406
+      V_WALK_Derecha_5: -1574635455
+      V_WALK_Derecha_6: 1047110660
+      V_WALK_Derecha_7: -1862991668
+      V_WALK_Derecha_8: 638412531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
