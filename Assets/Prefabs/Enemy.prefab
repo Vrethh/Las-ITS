@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3250827695720503200}
   - component: {fileID: 4971421839331420783}
   - component: {fileID: 9131389107388673891}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.21933556, y: -0.04544592}
+  m_Offset: {x: 0.21933556, y: 0.07382536}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -137,7 +137,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.0917978, y: 3.1772413}
+  m_Size: {x: 3.0917978, y: 3.415784}
   m_EdgeRadius: 0
 --- !u!50 &3250827695720503200
 Rigidbody2D:
@@ -205,7 +205,7 @@ MonoBehaviour:
   top_Collision: {fileID: 6259402410668563995}
   PlayerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!1 &4852052747487966133
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,7 +215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 429317729653917648}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -246,7 +246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6259402410668563995}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -262,7 +262,7 @@ Transform:
   m_GameObject: {fileID: 7440452705004549701}
   serializedVersion: 2
   m_LocalRotation: {x: -0.033110574, y: 0.0068541616, z: -0.000006516115, w: 0.9994282}
-  m_LocalPosition: {x: 0.16, y: 1.66, z: -0.09}
+  m_LocalPosition: {x: 0.16, y: 1.94, z: -0.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
